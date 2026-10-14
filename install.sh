@@ -16,7 +16,7 @@ user=${SUDO_USER:?run this with sudo from your own account, not as root}
 here=$(dirname "$(readlink -f "$0")")
 
 # Where Wren's packages are published (distro/repo/mkrepo.py builds the tree).
-repo=${WREN_REPO:-https://kyriosroboticsdev.github.io/wren-releases}
+repo=${WREN_REPO:-https://raw.githubusercontent.com/kyriosroboticsdev/wren-releases/main}
 suite=stable
 while [ $# -gt 0 ]; do
     case "$1" in
