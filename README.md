@@ -41,7 +41,7 @@ This repository holds the **signed packages and installer**. Wren's source code 
 Log in to your new Debian system and run:
 
 ```
-wget -qO- https://kyriosroboticsdev.github.io/wren-releases/get.sh | sudo bash
+wget -qO- https://raw.githubusercontent.com/kyriosroboticsdev/wren-releases/main/get.sh | sudo bash
 ```
 
 When it says **Done**, restart with `sudo reboot`. You'll see Wren's login screen.
