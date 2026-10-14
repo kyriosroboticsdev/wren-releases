@@ -16,8 +16,8 @@ code is private.
 | | | |
 |---|---|---|
 | **Wren OS** | Turns a fresh Debian 13 PC into Wren | [Install below](#install-wren-os) |
-| **Wren for Windows** | Tray app: Ctrl+Space opens Wren anywhere | [Download the installer](https://github.com/kyriosroboticsdev/wren-releases/releases/latest) (`Wren_…_x64-setup.exe`) |
-| **Wren for Android** | Your computer from your phone | [Download the app](https://github.com/kyriosroboticsdev/wren-releases/releases/latest) (`wren-….apk`) |
+| **Wren for Windows** | Tray app: Ctrl+Space opens Wren anywhere | [Download for Windows](https://github.com/kyriosroboticsdev/wren-releases/releases/download/v0.2.0-beta.1/Wren_0.2.0-beta.1_x64-setup.exe) (4 MB) |
+| **Wren for Android** | Your computer from your phone | [Download for Android](https://github.com/kyriosroboticsdev/wren-releases/releases/download/v0.2.0-beta.1/wren-0.2.0-beta.1.apk) (1.6 MB) |
 
 ## What Wren does
 
@@ -62,7 +62,7 @@ To remove it: `sudo apt remove wren-os` goes back to the text console, and
 
 ## Install Wren for Windows
 
-Windows 10 or 11, 64-bit. Run `Wren_…_x64-setup.exe`: it installs for your account
+Windows 10 or 11, 64-bit. Run the installer: it installs for your account
 only, no administrator needed. The installer isn't code-signed yet, so Windows may
 say *Windows protected your PC*: choose **More info › Run anyway**.
 
@@ -81,6 +81,8 @@ browser when Android asks. Then pair it with your computer:
 
 The app tells you when a new version is out. For use away from home, install
 Tailscale on the computer and the phone and sign in with the same account.
+
+All versions: [Releases](https://github.com/kyriosroboticsdev/wren-releases/releases).
 
 ## License
 
