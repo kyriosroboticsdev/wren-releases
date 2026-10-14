@@ -19,3 +19,25 @@ Description: Wren OS: boot splash, login screen and desktop session
  cage, cog), and the desktop session (labwc with Wren's page pinned below
  apps from Flathub). Run /usr/lib/wren/user-setup as each user for the apps
  that come with the system.
+
+Package: wren-os
+Version: 0.2.0~beta.1
+Architecture: all
+Maintainer: kyriosroboticsdev <kyriosroboticsdev@users.noreply.github.com>
+Installed-Size: 132
+Depends: wren (= 0.2.0~beta.1), greetd, cage, cog, labwc, swaybg, fonts-inter, libgl1-mesa-dri, mesa-utils, plymouth,
+ flatpak, dbus-user-session, xdg-desktop-portal, xdg-desktop-portal-gtk, xdg-desktop-portal-wlr,
+ pipewire, pipewire-pulse, wireplumber, network-manager, brightnessctl, power-profiles-daemon,
+ grim, bubblewrap, git, polkitd, busybox, btrfs-progs
+Section: x11
+Priority: optional
+Homepage: https://github.com/kyriosroboticsdev/wren-os
+Filename: pool/beta/wren-os_0.2.0~beta.1_all.deb
+Size: 25136
+MD5sum: 26028ebc5174c07e1038090b20dac30d
+SHA256: 2760c48dcee4f960017d5d2075485fd39c9dd56800a11a4bb3d6755170d0368e
+Description: Wren OS: boot splash, login screen and desktop session
+ Turns Debian into Wren OS: Plymouth splash, Wren's login screen (greetd,
+ cage, cog), and the desktop session (labwc with Wren's page pinned below
+ apps from Flathub). Run /usr/lib/wren/user-setup as each user for the apps
+ that come with the system.

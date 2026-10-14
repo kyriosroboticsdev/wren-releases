@@ -1,60 +1,86 @@
-# Wren OS — v0.1 beta
+# Wren — v0.2 beta
 
-Wren is a lightweight, AI-centered desktop that turns Debian 13 into its own
-operating system. The minimum spec reference machine is a 2014 Acer Chromebook
-R11 (2 GB RAM, 14 GB storage): if Wren runs well there, it runs on almost anything.
+Wren is an AI-centered desktop. It runs as its own lightweight operating system on
+Debian 13, as an app on Windows, and pairs with your phone. The reference machine
+is a 2014 Acer Chromebook R11 (2 GB of RAM, 14 GB of storage): if Wren runs well
+there, it runs on almost anything.
 
-This repository holds the **signed packages and installer**. Wren's source code is private.
+This repository holds the **signed packages, installers and apps**. Wren's source
+code is private.
 
 > **Beta.** Wren is new and still changing quickly. Keep backups of anything
 > important, and expect rough edges.
 
-## What's in v0.1
+## Get Wren
 
-- **A desktop built around an AI assistant:** a command bar (Ctrl+K), a top bar
-  with live CPU, memory and temperature, a dock with your open apps, and Wren's
-  own Files, Settings, Terminal and App Store (Flathub).
-- **Choose your AI:** local models (Ollama), Claude, or Claude Code, with a model
-  router, cost tracking and budget caps. Every action Wren takes is recorded and
-  can be undone, and anything risky asks for your approval first.
-- **Permissions:** Wren only reaches the folders you grant it, grants expire, and
-  commands run in a sandbox.
-- **Updates and restore points:** Settings › Updates installs signed updates, and
-  a restore point is saved before each one. If an update ever goes wrong, go
-  back from Settings, or from the boot menu if the computer won't start.
-- **Smart Connect:** pair Wren devices on the same network (both screens show
-  the same code). Press Scroll Lock to move a Windows PC's keyboard and mouse to
-  a Wren OS laptop and back, and play the laptop's sound on the PC.
-- **Your phone:** pair it by QR code for approvals, notifications and screen control
-  from its browser (an Android app is coming).
+| | | |
+|---|---|---|
+| **Wren OS** | Turns a fresh Debian 13 PC into Wren | [Install below](#install-wren-os) |
+| **Wren for Windows** | Tray app: Ctrl+Space opens Wren anywhere | [Download the installer](https://github.com/kyriosroboticsdev/wren-releases/releases/latest) (`Wren_…_x64-setup.exe`) |
+| **Wren for Android** | Your computer from your phone | [Download the app](https://github.com/kyriosroboticsdev/wren-releases/releases/latest) (`wren-….apk`) |
 
-## Requirements
+## What Wren does
 
-- A 64-bit PC (amd64) running a fresh **Debian 13 "trixie"**, installed from the
-  netinst image with no desktop selected (only *SSH server* and *standard system
-  utilities*).
-- For restore points: choose **btrfs** for the root partition during installation.
-- Wi-Fi or Ethernet during installation (about 4 GB is downloaded, mostly apps).
+- **An assistant at the center of the desktop:** ask from the top bar or with
+  Ctrl+Space, run several tasks side by side, each on its own model. Use local
+  models (Ollama), Claude, or Claude Code; a router picks a model for each
+  message, and a meter tracks cost with budget caps.
+- **Safe by design:** Wren reaches only the folders you grant (grants expire),
+  runs commands in a sandbox, asks before anything risky, and records every
+  action so it can be undone. Restore points let you roll back the whole system,
+  from Settings or the boot menu.
+- **A complete desktop:** command bar (Ctrl+K), live system stats, a dock with
+  your apps, Files, Settings, Terminal with an error catcher, project tabs that
+  run your builds and tests, and an App Store (Flathub on Wren OS, winget on Windows).
+- **Smart Connect:** devices pair by showing the same 6-digit code (end-to-end
+  encrypted). A shared clipboard, files in both directions, one keyboard and mouse
+  across a PC and a Wren laptop (Scroll Lock), and the laptop's sound on the PC.
+- **Your phone:** tasks, chat and approvals with notifications; see and control
+  the computer's screen, switch its windows, and **ask Wren about what's on the
+  screen**. Share files from any app to a computer. Away from home it reaches your
+  computer through [Tailscale](https://tailscale.com), automatically.
 
-## Install
+## Install Wren OS
 
-Log in to your new Debian system and run:
+You need a 64-bit PC (amd64) with a fresh **Debian 13 "trixie"**, installed from
+the netinst image with no desktop selected (only *SSH server* and *standard system
+utilities*). Choose **btrfs** for the root partition to get restore points. About
+4 GB is downloaded, mostly apps.
+
+Log in to the new system and run:
 
 ```
 wget -qO- https://raw.githubusercontent.com/kyriosroboticsdev/wren-releases/main/get.sh | sudo bash
 ```
 
 When it says **Done**, restart with `sudo reboot`. You'll see Wren's login screen.
+After that, Wren updates through **Settings › Updates**. Packages are verified
+against the key in `repo/wren-archive-keyring.gpg`.
 
-The installer adds this repository (packages are verified against the key in
-`repo/wren-archive-keyring.gpg`), installs the `wren-os` package, and sets up the
-apps for your account. After that, Wren updates through **Settings › Updates**
-like the rest of the system.
+To remove it: `sudo apt remove wren-os` goes back to the text console, and
+`sudo apt remove wren` removes the rest.
 
-## Remove
+## Install Wren for Windows
 
-`sudo apt remove wren-os` goes back to the text console, and `sudo apt remove wren`
-removes the rest.
+Windows 10 or 11, 64-bit. Run `Wren_…_x64-setup.exe`: it installs for your account
+only, no administrator needed. The installer isn't code-signed yet, so Windows may
+say *Windows protected your PC*: choose **More info › Run anyway**.
+
+Wren starts in the tray when you sign in; **Ctrl+Space** opens it anywhere, and
+the tray menu has the full window, Start when I sign in, and Quit.
+
+## Install Wren for Android
+
+Android 8 or newer. Open the `.apk` on the phone and allow installing from your
+browser when Android asks. Then pair it with your computer:
+
+- **Phone link** (tasks, chat, approvals, screen): on the computer, Settings ›
+  Devices › Phone › Show QR code, then *Scan QR code* in the app.
+- **Smart Connect** (clipboard, files): Devices in the app, then pair with the
+  computer listed under Nearby.
+
+The app tells you when a new version is out. For use away from home, install
+Tailscale on the computer and the phone and sign in with the same account.
 
 ## License
 
