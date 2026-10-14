@@ -1,0 +1,36 @@
+Wren
+Copyright (c) 2026 Kai (github.com/kyriosroboticsdev). All rights reserved.
+
+1. Use. You may download, install and use Wren (the software, its packages and
+   its documentation) free of charge, on any number of devices, for personal,
+   educational or commercial purposes.
+
+2. Restrictions. Except as this license allows, or with the copyright holder's
+   prior written permission, you may not:
+   a. copy, modify, adapt, translate or create derivative works of Wren, other
+      than the copies needed to install and use it;
+   b. distribute, sell, rent, lease, sublicense, host for others or otherwise
+      make Wren or any part of it available to anyone else; or
+   c. reverse engineer, decompile or disassemble Wren, except to the extent the
+      applicable law expressly permits it despite this restriction.
+
+3. Third-party components. Wren includes open-source components (libraries,
+   fonts and scripts) that remain under their own licenses, listed with their
+   notices in THIRD-PARTY-NOTICES.txt. Nothing in this license limits your
+   rights under those licenses for those components.
+
+4. Ownership. Wren is licensed, not sold. The copyright holder keeps all rights
+   not expressly granted here.
+
+5. No warranty. WREN IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. Wren is beta software:
+   keep backups of anything that matters to you.
+
+6. Limitation of liability. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR
+   ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
+   OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH WREN OR THE USE OR
+   OTHER DEALINGS IN WREN.
+
+7. Termination. This license ends automatically if you break its terms; you must
+   then stop using Wren and delete your copies.

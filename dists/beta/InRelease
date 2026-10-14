@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Wren
+Label: Wren
+Suite: beta
+Codename: beta
+Date: Wed, 14 Oct 2026 05:45:42 GMT
+Architectures: amd64 arm64 all
+Components: main
+Description: Wren OS packages
+MD5Sum:
+ c59fbc6c4d342586e5e213cf29ec52fe     1843 main/binary-amd64/Packages
+ 2e5b78176a962ed1a712b401e391b3b5      948 main/binary-amd64/Packages.gz
+ fef97f18ef666cca3cdcb95a27d3ded1     1098 main/binary-arm64/Packages
+ 469a4922f4b70af5f7679aa726511b08      676 main/binary-arm64/Packages.gz
+SHA256:
+ 0e7564f7b779e645b369826d0e5bf6aaa96ad770db2ad26ca6676ad41f09b993     1843 main/binary-amd64/Packages
+ 297b54214d6aed11b7363898718fd600290025de43775a3da576fc812b17685a      948 main/binary-amd64/Packages.gz
+ 50b371a5fa06137b4c53bba98dd819adad1a693c849b18ed1f60735c3683d918     1098 main/binary-arm64/Packages
+ 2a3f33411b6e250594caa06b0af7d66d271020bb93c271c836b1f558c3f874fe      676 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iKEEARYKAEkWIQRhPGaXUfWHUZ0cxCBoZfCLrngtVgUCas8XBisca3lyaW9zcm9i
+b3RpY3NkZXZAdXNlcnMubm9yZXBseS5naXRodWIuY29tAAoJEGhl8IuueC1WhhUB
+ALoSfivf/p7iMdSzvPM2RcnK34dMXvIbsJ0fYAeEpL47AQD59wntE4oFArI61b1X
+Tafs+iKDJNS59MqcVKHknQ2pBQ==
+=VEja
+-----END PGP SIGNATURE-----

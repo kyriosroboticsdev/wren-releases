@@ -1,0 +1,39 @@
+Package: wren
+Version: 0.1.0~beta.1
+Architecture: amd64
+Maintainer: kyriosroboticsdev <kyriosroboticsdev@users.noreply.github.com>
+Installed-Size: 10316
+Depends: libc6 (>= 2.39), libgcc-s1
+Section: utils
+Priority: optional
+Homepage: https://github.com/kyriosroboticsdev/wren-os
+Filename: pool/beta/wren_0.1.0~beta.1_amd64.deb
+Size: 3231704
+MD5sum: b97666727d2979ab32fbc162bc2ba788
+SHA256: 4166ee851dcc03ab8747f312b2fbf4d9d1d7be6a0f33e7397b34ab2e7b7ec938
+Description: Wren, an AI-centered desktop: agent service and tools
+ The wren binary: the agent service behind Wren's desktop (chat, OS tools,
+ approvals, permissions, phone link), its login-screen greeter, and the
+ command line. The wren-os package turns Debian into the full Wren desktop.
+
+Package: wren-os
+Version: 0.1.0~beta.1
+Architecture: all
+Maintainer: kyriosroboticsdev <kyriosroboticsdev@users.noreply.github.com>
+Installed-Size: 132
+Depends: wren (= 0.1.0~beta.1), greetd, cage, cog, labwc, swaybg, fonts-inter, libgl1-mesa-dri, mesa-utils, plymouth,
+ flatpak, dbus-user-session, xdg-desktop-portal, xdg-desktop-portal-gtk, xdg-desktop-portal-wlr,
+ pipewire, pipewire-pulse, wireplumber, network-manager, brightnessctl, power-profiles-daemon,
+ grim, bubblewrap, git, polkitd, busybox, btrfs-progs
+Section: x11
+Priority: optional
+Homepage: https://github.com/kyriosroboticsdev/wren-os
+Filename: pool/beta/wren-os_0.1.0~beta.1_all.deb
+Size: 25132
+MD5sum: 597b055ea05c7d5cc0d8bf2db5096d6e
+SHA256: 39f64cc005b96c4fcdce5ed2d6cb974f9d33aedfb54a992e380a6a42d15ef84f
+Description: Wren OS: boot splash, login screen and desktop session
+ Turns Debian into Wren OS: Plymouth splash, Wren's login screen (greetd,
+ cage, cog), and the desktop session (labwc with Wren's page pinned below
+ apps from Flathub). Run /usr/lib/wren/user-setup as each user for the apps
+ that come with the system.
