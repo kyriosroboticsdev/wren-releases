@@ -34,6 +34,24 @@ Description: Wren, an AI-centered desktop: agent service and tools
  approvals, permissions, phone link), its login-screen greeter, and the
  command line. The wren-os package turns Debian into the full Wren desktop.
 
+Package: wren
+Version: 0.2.0~beta.2
+Architecture: amd64
+Maintainer: kyriosroboticsdev <kyriosroboticsdev@users.noreply.github.com>
+Installed-Size: 10532
+Depends: libc6 (>= 2.39), libgcc-s1, git
+Section: utils
+Priority: optional
+Homepage: https://github.com/kyriosroboticsdev/wren-os
+Filename: pool/beta/wren_0.2.0~beta.2_amd64.deb
+Size: 3291148
+MD5sum: 54835c1d1594e3d7d80bd32e33e7cc83
+SHA256: 84fe1f1a192746231f78e1b7f0fe77eb5a08eb360f4e9e85a9b95c35ca895bc5
+Description: Wren, an AI-centered desktop: agent service and tools
+ The wren binary: the agent service behind Wren's desktop (chat, OS tools,
+ approvals, permissions, phone link), its login-screen greeter, and the
+ command line. The wren-os package turns Debian into the full Wren desktop.
+
 Package: wren-os
 Version: 0.1.0~beta.1
 Architecture: all
@@ -72,6 +90,28 @@ Filename: pool/beta/wren-os_0.2.0~beta.1_all.deb
 Size: 25136
 MD5sum: 26028ebc5174c07e1038090b20dac30d
 SHA256: 2760c48dcee4f960017d5d2075485fd39c9dd56800a11a4bb3d6755170d0368e
+Description: Wren OS: boot splash, login screen and desktop session
+ Turns Debian into Wren OS: Plymouth splash, Wren's login screen (greetd,
+ cage, cog), and the desktop session (labwc with Wren's page pinned below
+ apps from Flathub). Run /usr/lib/wren/user-setup as each user for the apps
+ that come with the system.
+
+Package: wren-os
+Version: 0.2.0~beta.2
+Architecture: all
+Maintainer: kyriosroboticsdev <kyriosroboticsdev@users.noreply.github.com>
+Installed-Size: 136
+Depends: wren (= 0.2.0~beta.2), greetd, cage, cog, labwc, swaybg, fonts-inter, libgl1-mesa-dri, mesa-utils, plymouth,
+ flatpak, dbus-user-session, xdg-desktop-portal, xdg-desktop-portal-gtk, xdg-desktop-portal-wlr,
+ pipewire, pipewire-pulse, wireplumber, network-manager, brightnessctl, power-profiles-daemon,
+ grim, bubblewrap, git, polkitd, busybox, btrfs-progs
+Section: x11
+Priority: optional
+Homepage: https://github.com/kyriosroboticsdev/wren-os
+Filename: pool/beta/wren-os_0.2.0~beta.2_all.deb
+Size: 25452
+MD5sum: 1c77babd3c6ea16afe0c0092bcdbc179
+SHA256: e0a4a27cd115029e5a42b421ae6d7bb7511512d29de3fc15481687c1cd1c2de5
 Description: Wren OS: boot splash, login screen and desktop session
  Turns Debian into Wren OS: Plymouth splash, Wren's login screen (greetd,
  cage, cog), and the desktop session (labwc with Wren's page pinned below

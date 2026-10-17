@@ -2,17 +2,17 @@ Origin: Wren
 Label: Wren
 Suite: beta
 Codename: beta
-Date: Wed, 14 Oct 2026 21:35:47 GMT
+Date: Sat, 17 Oct 2026 18:27:58 GMT
 Architectures: amd64 arm64 all
 Components: main
 Description: Wren OS packages
 MD5Sum:
- 92a079579d0fb801b2a1f19b75ae010a     3687 main/binary-amd64/Packages
- 989bd73961f38b8ea5aba1d3001a8b39     1141 main/binary-amd64/Packages.gz
- 15c0747d2468cc817d98ab6ebbae8d24     2197 main/binary-arm64/Packages
- ad46a2894ab2612194a9596d31a14980      786 main/binary-arm64/Packages.gz
+ fbeca1b3b16991ac016ee880039c0802     5536 main/binary-amd64/Packages
+ 261468a13492979bcd9bef56c89dcbf3     1325 main/binary-amd64/Packages.gz
+ 8683c6a2680956600e113fc03fbcd1a7     3296 main/binary-arm64/Packages
+ 55be0dcd470e8683878dd085db837c82      882 main/binary-arm64/Packages.gz
 SHA256:
- 10414365493cfc9bad6d8b941a1bab39d6f309652a5d86346c4b5476cb2e92f7     3687 main/binary-amd64/Packages
- 0acf2d5ffbccb9c6a104b37fb1133ad821b2b4319564fc01cd98e05636eefe92     1141 main/binary-amd64/Packages.gz
- b84371ad638c28368a940ec3adcfa3bfc78035cf546eb1a781131ff809024c41     2197 main/binary-arm64/Packages
- 948bb8e7c25fe0c55c2152572378ab8840633a511e9c3be04f2e4e769b22c975      786 main/binary-arm64/Packages.gz
+ af22cd940f286cd681a69ff362e77bfa509b954af84bd052bce3547ad860c9d0     5536 main/binary-amd64/Packages
+ d4cb35500b5a77d4c2bfad9a72e7fc15cfea1d82f9c5dac09d64a7d6be91da1a     1325 main/binary-amd64/Packages.gz
+ bbc4e436f701a7ebc282af6143ed5cf595f65bc6ea319442161d2391f7b88e16     3296 main/binary-arm64/Packages
+ 77391bfc854abef079de9e9e0b3b9894d0ba86ceb03ca6951cfee02772c3d6ce      882 main/binary-arm64/Packages.gz
