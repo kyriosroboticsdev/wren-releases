@@ -5,25 +5,25 @@ Origin: Wren
 Label: Wren
 Suite: beta
 Codename: beta
-Date: Sun, 18 Oct 2026 16:28:32 GMT
+Date: Sun, 18 Oct 2026 17:12:31 GMT
 Architectures: amd64 arm64 all
 Components: main
 Description: Wren OS packages
 MD5Sum:
- 218c7424e54aac2cd237bb1b55201db1     5565 main/binary-amd64/Packages
- fd677d269b3ac5e7104eca446384970d     1347 main/binary-amd64/Packages.gz
- 88f276363b28cadb19d6895f518bf9ea     3320 main/binary-arm64/Packages
- 54ebb2d7b896f8f1f0650fecb8918c64      903 main/binary-arm64/Packages.gz
+ fd57e95676b8c2bdfe005f0489a9a8e6     5604 main/binary-amd64/Packages
+ e2f0db4f617ea14314ef59c73f3f8626     1352 main/binary-amd64/Packages.gz
+ 996301cde3b6353b024851274cbb0b3b     3350 main/binary-arm64/Packages
+ 43a81ef4eb641e413767d7a9e19b3b56      906 main/binary-arm64/Packages.gz
 SHA256:
- fba7441f6a040c1cc91aaba7a5e3a5749674334645aea1b08f1f7ab069efd203     5565 main/binary-amd64/Packages
- 25fdd78b7ed6f23bfbfc80a3f857cc925198cae9f1e6cbc2afccccc34c6de904     1347 main/binary-amd64/Packages.gz
- 9815858b2168e8346e6f4451db20e915502dd84b90d64a4f5c309190e5bf86df     3320 main/binary-arm64/Packages
- 2deb81166cc2695651fa641766d0ad5acef5f0f0b77b6ac386583e1078a678f6      903 main/binary-arm64/Packages.gz
+ 452afcd31576bf2e8883a1aa9cf2711b5343aff3dbc28508d010baca1c1b3d87     5604 main/binary-amd64/Packages
+ 1433b60daada38ae6ea6b6d44773aa3ce52d525b4910ce1df50a6d5c4bb337db     1352 main/binary-amd64/Packages.gz
+ 25af0bdee57bea159c49a4f5395622913ef1b19df0787ce31910eaecf4046fd3     3350 main/binary-arm64/Packages
+ a4aaee9d64fa5f550e12ea65e1bc790ac8e8c0721f44929cfbfd55fdf5563d29      906 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iKEEARYKAEkWIQRhPGaXUfWHUZ0cxCBoZfCLrngtVgUCatTzsCsca3lyaW9zcm9i
-b3RpY3NkZXZAdXNlcnMubm9yZXBseS5naXRodWIuY29tAAoJEGhl8IuueC1WXmAB
-AMuzn+2DuAFdxF7sVYDedTn4AnHDfdAIAZzxW98GWhLxAQCq3Iw3DC+SQ1H2i0dn
-zmCwHUZmOhuEF/dIT1NRI0SYCA==
-=Nqu4
+iKEEARYKAEkWIQRhPGaXUfWHUZ0cxCBoZfCLrngtVgUCatT9/ysca3lyaW9zcm9i
+b3RpY3NkZXZAdXNlcnMubm9yZXBseS5naXRodWIuY29tAAoJEGhl8IuueC1WkVUA
+/RPoUXQHw3Q6s1r3NZFy7ev9WRp/XjEsR5EqqGk3QRXXAQCmPuLFdhTxNM8Vrzt7
+gjcsLYQ25C1fPrNSh6FVPy//Ag==
+=pgq4
 -----END PGP SIGNATURE-----
